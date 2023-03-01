@@ -15,8 +15,6 @@
     @if ($message = Session::get('success'))
         <div class="alert alert-success">
             <p>{{ $message }}</p>
-            {{ sleep(3) }}
-            {{ $message = '' }}
         </div>
     @endif
 
